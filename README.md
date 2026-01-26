@@ -1,21 +1,21 @@
 MyPainterApp/
-├─ CMakeLists.txt                     # ملف بناء المشروع
+├─ CMakeLists.txt                   
 ├─ src/
 │  ├─ main.cpp
 │  ├─ App/
 │  │  ├─ MainWindow.cpp
 │  │  ├─ MainWindow.h
-│  │  └─ MainWindow.ui               # واجهة Qt Designer
+│  │  └─ MainWindow.ui              
 │  │
-│  │  ├─ Core/                        # الوظائف الأساسية للرسم وإدارة المشروع
+│  │  ├─ Core/                  
 │  │  │  ├─ Canvas.cpp
 │  │  │  ├─ Canvas.h
 │  │  │  ├─ Layer.cpp
 │  │  │  ├─ Layer.h
-│  │  │  ├─ HistoryManager.cpp        # Undo/Redo
+│  │  │  ├─ HistoryManager.cpp        
 │  │  │  └─ HistoryManager.h
 │  │  │
-│  │  ├─ Tools/                       # كل أدوات الرسم
+│  │  ├─ Tools/                
 │  │  │  ├─ Brush.cpp
 │  │  │  ├─ Brush.h
 │  │  │  ├─ Eraser.cpp
@@ -27,22 +27,22 @@ MyPainterApp/
 │  │  │  └─ EllipseTool.cpp
 │  │  │  └─ EllipseTool.h
 │  │  │
-│  │  ├─ Effects/                     # مؤثرات وألوان
+│  │  ├─ Effects/                   
 │  │  │  ├─ Filter.cpp
 │  │  │  ├─ Filter.h
 │  │  │  ├─ ColorAdjust.cpp
 │  │  │  └─ ColorAdjust.h
 │  │  │
-│  │  ├─ File/                        # حفظ وفتح الملفات
+│  │  ├─ File/                    
 │  │  │  ├─ FileManager.cpp
 │  │  │  ├─ FileManager.h
-│  │  │  └─ Formats/                  # صيغ ملفات خاصة
+│  │  │  └─ Formats/                 
 │  │  │     ├─ PNGHandler.cpp
 │  │  │     ├─ PNGHandler.h
 │  │  │     ├─ JPEGHandler.cpp
 │  │  │     └─ JPEGHandler.h
 │  │  │
-│  │  ├─ UI/                          # عناصر واجهة المستخدم الخاصة بالبرنامج
+│  │  ├─ UI/                        
 │  │  │  ├─ Toolbar.cpp
 │  │  │  ├─ Toolbar.h
 │  │  │  ├─ ColorPalette.cpp
@@ -50,13 +50,13 @@ MyPainterApp/
 │  │  │  ├─ LayersPanel.cpp
 │  │  │  └─ LayersPanel.h
 │  │  │
-│  │  └─ Utils/                       # وظائف مساعدة عامة
+│  │  └─ Utils/                       
 │  │     ├─ Logger.cpp
 │  │     ├─ Logger.h
 │  │     ├─ MathUtils.cpp
 │  │     └─ MathUtils.h
 │  │
-│  ├─ Animation/                      # مجلد الأنميشن الجديد
+│  ├─ Animation/               
 │  │  ├─ Frame.cpp
 │  │  ├─ Frame.h
 │  │  ├─ Timeline.cpp
@@ -66,15 +66,16 @@ MyPainterApp/
 │  │  ├─ OnionSkin.cpp
 │  │  └─ OnionSkin.h
 │  │
-│  ├─ ui/                             # ملفات Qt Designer الإضافية
+│  ├─ ui/                             
 │  │  └─ MainWindow.ui
 │
-├─ assets/                             # أيقونات، فرش جاهزة، ألوان
+├─ assets/                            
 │  ├─ icons/
 │  ├─ brushes/
 │  └─ presets/
 │
-├─ docs/                               # التوثيق
-├─ tests/                              # اختبارات لكل موديول
-├─ scripts/                            # سكربتات بناء أو أتمتة
+├─ docs/                              
+├─ tests/                              
+├─ scripts/                            
 └─ README.md
+
