@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowTitle">
+   <string>MGS Painter</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+ </widget>
+</ui>
