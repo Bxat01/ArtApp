@@ -78,4 +78,5 @@ MyPainterApp/
 ├─ tests/                              
 ├─ scripts/                            
 └─ README.md
+.
 
